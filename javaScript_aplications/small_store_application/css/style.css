@@ -1,0 +1,42 @@
+
+h2{
+  background-color: #c9970c;
+  font-size: 28px;
+  color:white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p{
+  font-size: 18px;
+  text-align: center;
+  font-weight: normal;
+  color: #c9970c;
+}
+
+a{
+  text-decoration: none;
+  font-size: 18px;;
+  color:#c9970c;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+
+#produtos{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2%;
+  display: flex;
+}
+
+#carrinho{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.produto-single{
+  width: 33.3%;
+  padding: 0 20px;
+}
