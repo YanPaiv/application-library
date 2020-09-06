@@ -12,3 +12,6 @@
 
 
 <h2>Mobile</h2>
+
+
+![dashboraas_mobile](https://user-images.githubusercontent.com/69093389/92328251-b216e800-f035-11ea-8699-26ded18bca7e.gif)
