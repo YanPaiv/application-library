@@ -1,0 +1,123 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Grandstander;
+}
+
+body{
+   background-color: black;
+}
+
+.container{
+   max-width: 980px;
+   margin: 0 auto;
+   padding: 0 2%;
+}
+
+header{
+   background-image: url('/images/bg2.jpg');
+   background-position: center;
+   background-size: contain;
+   width: 100%;
+   height: 280px;
+   opacity: 0.9;
+}
+
+header h2{
+   text-align: center;
+   color: white;
+   padding-top: 60px;
+   font-size: 32px;
+}
+header p{
+   text-align: center;
+   color: white;
+   line-height: 50px;
+}
+
+header input{
+   outline: none;
+   border: 0;
+   border-radius: 20px;
+   width: 60%;
+   padding: 10px;
+   height: 30px;
+   margin-left: 20%;
+}
+
+header button{
+ outline: none;
+ cursor: pointer;
+ border: 0;
+ border-radius: 20px;
+ width: 30%;
+ height: 25px;
+ color: white;
+ margin: 10px 34%;
+ background-color: #08d40c;
+}
+
+header button:hover{
+   transition: 1s;
+   background-color: #0fff14;
+}
+
+.songs-container{
+   margin-left: 25%;
+}
+
+.song{
+   color: white;
+   list-style-type: none;
+   margin-bottom: 10px;
+}
+
+.song:hover{
+   color: #0fff14;
+}
+
+.btn{
+   border: 0;
+   border-radius: 10px;
+   padding: 6px;
+   color: white;
+   background-color: #08d40c;
+   cursor: pointer;
+   outline: none;
+}
+
+.btn:hover{
+   background-color: #0fff14;
+}
+
+.prev-and-next-container{
+   margin:20px 25%;
+}
+
+.lyrics-container{
+   list-style-type: none;
+}
+
+.lyrics-container h2{
+   color: white;
+}
+
+.lyrics-container strong{
+   color: #0fff14;
+}
+
+.lyrics{
+   margin-top: 20px;
+   color: white;
+   font-size: 21px;
+   height: 500px;
+   overflow-y: auto;
+}
+
+.warning-message{
+   color: red;
+   list-style-type: none;
+}
+
+
